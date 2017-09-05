@@ -1,0 +1,29 @@
+div.button {
+  float: right;
+  margin-right: 1em;
+}
+
+div.textbox {
+  float: right;
+  background-color: rgba(100, 100, 150, 0.2);
+  padding: 7em;
+  margin: black;
+  margin: 2em;
+}
+
+div.back_1 {
+  background-color: rgba(230, 100, 100, 0.5);
+  width: 68em
+}
+
+body {
+  background-image: url("../Pictures/Background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div.fixed {
+    margin-left: 1200px;
+    position: fixed;
+    top:40px;
+}
