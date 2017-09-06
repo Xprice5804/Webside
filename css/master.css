@@ -13,7 +13,8 @@ div.textbox {
 
 div.back_1 {
   background-color: rgba(230, 100, 100, 0.5);
-  width: 68em
+  width: 68em;
+  border-radius: 20px;
 }
 
 body {
@@ -26,4 +27,14 @@ div.fixed {
     margin-left: 1200px;
     position: fixed;
     top:40px;
+}
+
+input[type=radio]{
+  width: 1.5em;
+  height: 1.5em;
+}
+
+input[type=checkbox]{
+  width: 1.5em;
+  height: 1.5em;
 }
