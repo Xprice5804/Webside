@@ -10,7 +10,10 @@
 </head>
 
 <body>
-  <!--Adding a firebase database framework, not in use-->
+  <!--Adding a firebase database framework, not in use.
+  This code is made by Google.inc's engineer and to make firebase work I was told to add this.
+  Tis is not code I fully understand at this moment, but I'm in the learning proses
+  -->
   <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
   <script>
     // Initialize Firebase
@@ -33,10 +36,17 @@
   <!-- <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-storage.js"></script> -->
 
   <script>
+    // TODO: Replace with your project's config object
     var config = {
-      // ...
+      apiKey: "apiKey",
+      authDomain: "restaurant-1606.firebaseapp.com",
+      databaseURL: "https://restaurant-1606.firebaseio.com",
+      storageBucket: "bucket.appspot.com"
     };
     firebase.initializeApp(config);
+
+    // Get a reference to the database service
+    var database = firebase.database();
   </script>
   <!--Website starts here-->
 

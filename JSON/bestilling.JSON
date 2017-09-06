@@ -1,1 +1,8 @@
-null
+{
+  "Mat" : {
+    "Hovedrett" : "Burger",
+    "Drikke" : "Fanta",
+    "Siderett" : "Løkringer",
+    "Tilbehør" : "Majones"
+  }
+}
