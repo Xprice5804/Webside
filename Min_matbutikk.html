@@ -10,6 +10,36 @@
 </head>
 
 <body>
+  <!--Adding a firebase database framework, not in use-->
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCtkgAQH3znosuNernaBz8oDb3YeEUfW1E",
+      authDomain: "restaurant-1606.firebaseapp.com",
+      databaseURL: "https://restaurant-1606.firebaseio.com",
+      projectId: "restaurant-1606",
+      storageBucket: "",
+      messagingSenderId: "839578733085"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-messaging.js"></script>
+
+  <!-- Leave out Storage -->
+  <!-- <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-storage.js"></script> -->
+
+  <script>
+    var config = {
+      // ...
+    };
+    firebase.initializeApp(config);
+  </script>
+
+
   <div class="w3-bar w3-black">
     <center>
       <div class="button">
@@ -116,33 +146,5 @@
 <footer>
 
 </footer>
-
-<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyCtkgAQH3znosuNernaBz8oDb3YeEUfW1E",
-    authDomain: "restaurant-1606.firebaseapp.com",
-    databaseURL: "https://restaurant-1606.firebaseio.com",
-    projectId: "restaurant-1606",
-    storageBucket: "",
-    messagingSenderId: "839578733085"
-  };
-  firebase.initializeApp(config);
-</script>
-<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>
-<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-messaging.js"></script>
-
-<!-- Leave out Storage -->
-<!-- <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-storage.js"></script> -->
-
-<script>
-  var config = {
-    // ...
-  };
-  firebase.initializeApp(config);
-</script>
 
 </html>
