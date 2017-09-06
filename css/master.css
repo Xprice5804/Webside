@@ -24,7 +24,7 @@ body {
 }
 
 div.fixed {
-    margin-left: 1200px;
+    margin-left: 80em;
     position: fixed;
     top:40px;
 }
@@ -37,4 +37,9 @@ input[type=radio]{
 input[type=checkbox]{
   width: 1.5em;
   height: 1.5em;
+}
+
+img{
+  border-radius: 30px;
+  margin: 5px;
 }
