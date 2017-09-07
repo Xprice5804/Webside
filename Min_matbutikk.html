@@ -130,12 +130,12 @@
             </div>
           </div>
 
-          <button type="submit" class="w3-button w3-block w3-section w3-blue w3-ripple w3-padding" id="submit-ord">Send</button>
+          <button type="submit" class="w3-button w3-block w3-section w3-blue w3-ripple w3-padding" id="submitord">Send</button>
         </div>
     </form>
 
     <script>
-      function SubmitOrder(submit - ord) { //making a submit function
+      function SubmitOrder(submitord) { //making a submit function
         firebase.database().ref('./JSON/bestilling.JSON' + submit - ord).set({
           //fech this data and put it in .JSON file
           Hovedrett: mat,
