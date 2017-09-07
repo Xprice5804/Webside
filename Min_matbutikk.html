@@ -26,6 +26,8 @@
       messagingSenderId: "839578733085"
     };
     firebase.initializeApp(config);
+    //get a referenceto the database service
+    var database = firebase.database();
   </script>
   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script>
@@ -35,20 +37,7 @@
   <!-- Leave out Storage -->
   <!-- <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-storage.js"></script> -->
 
-  <script>
-    // TODO: Replace with your project's config object
-    var config = {
-      apiKey: "apiKey",
-      authDomain: "restaurant-1606.firebaseapp.com",
-      databaseURL: "https://restaurant-1606.firebaseio.com",
-      storageBucket: "bucket.appspot.com"
-    };
-    firebase.initializeApp(config);
-
-    // Get a reference to the database service
-    var database = firebase.database();
-  </script>
-  <!--Website starts here-->
+  <!-- Webpage starts here-->
 
   <div class="w3-bar w3-black">
     <center>
@@ -141,20 +130,25 @@
             </div>
           </div>
 
-          <button type="submit" class="w3-button w3-block w3-section w3-blue w3-ripple w3-padding">Send</button>
+          <button type="submit" class="w3-button w3-block w3-section w3-blue w3-ripple w3-padding" id="submit-ord">Send</button>
         </div>
     </form>
 
+    <script>
+      function SubmitOrder(submit - ord) { //making a submit function
+        firebase.database().ref('./JSON/bestilling.JSON' + submit - ord).set({
+          //fech this data and put it in .JSON file
+          Hovedrett: mat,
+          Drikke: drikke,
+          Siderett: Siderett
+        });
+      }
+    </script>
     </div>
 
   </div>
-
-
-
 </body>
-
 <footer>
-
 </footer>
 
 </html>
