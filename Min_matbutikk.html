@@ -2,6 +2,7 @@
 <html>
 <link rel="stylesheet" href="./css/w3FW.css">
 <link rel="stylesheet" href="./css/master.css">
+<link rel="stylesheet" href="./css/matbutikk.css">
 
 <head>
   <meta charset="utf-8">
@@ -39,10 +40,10 @@
 
   <!-- Webpage starts here-->
 
-  <div class="w3-bar w3-black">
+  <div class="nav-bar w3-black">
     <center>
       <div class="button">
-        <a href="./handlekurv.html"><button><img width="30px" src="./Pictures/cart.svg" alt="Handlekurv"></button></a>
+        <a href="./handlekurv.html"><button><img width="20px" src="./Pictures/cart.svg" alt="Handlekurv"></button></a>
       </div>
       <a href="./index.html"><button class="w3-button">Home</button></a>
       <a href="./Mine_interesser.html"><button class="w3-button">Mine interesser</button></a>
@@ -62,10 +63,13 @@
           </head>
           <img src="./Pictures/Mat/Mat.jpg" alt="Hamburger, kebab, pizza eller pølse" width="550px">
           <div class="textbox">
-            <input type="radio" name="mat" value="Hamburger" id="hamburger"><label for="hamburger"><font size="5">Hamburger</font></label><br>
-            <input type="radio" name="mat" value="Kebab" id="kebab"><label for="kebab"><font size="5">Kebab</font></label><br>
-            <input type="radio" name="mat" value="pølse" id="pølse"><label for="pølse"><font size="5">Pølse</font></label><br>
-            <input type="radio" name="mat" value="pizza" id="pizza"><label for="pizza"><font size="5">Pizza</font></label><br>
+            <input type="radio" name="mat" value="Hamburger" id="hamburger"><label for="hamburger" title="Denne burgeren inneholder:
+            beste biff
+            hjemelaget brød
+            ">Hamburger</label><br>
+            <input type="radio" name="mat" value="Kebab" id="kebab"><label for="kebab">Kebab</label><br>
+            <input type="radio" name="mat" value="pølse" id="pølse"><label for="pølse">Pølse</label><br>
+            <input type="radio" name="mat" value="pizza" id="pizza"><label for="pizza">Pizza</label><br>
           </div>
         </div>
 
@@ -76,10 +80,10 @@
           </head>
           <img src="./Pictures/Mat/Drikke.jpg" alt="Fanta">
           <div class="textbox">
-            <input type="radio" name="drikke" value="Fanta" id="fanta"><label for="fanta"><font size="5">Fanta</font></label><br>
-            <input type="radio" name="drikke" value="Cola" id="cola"><label for="cola"><font size="5">Cola</font></label><br>
-            <input type="radio" name="drikke" value="sprite" id="sprite"><label for="sprite"><font size="5">Sprite</font></label><br>
-            <input type="radio" name="drikke" value="vann" id="vann"><label for="vann"><font size="5">Eira Vann</font></label><br>
+            <input type="radio" name="drikke" value="Fanta" id="fanta"><label for="fanta"> Fanta</label><br>
+            <input type="radio" name="drikke" value="Cola" id="cola"><label for="cola"> Cola</label><br>
+            <input type="radio" name="drikke" value="sprite" id="sprite"><label for="sprite"> Sprite</label><br>
+            <input type="radio" name="drikke" value="vann" id="vann"><label for="vann"> Eira Vann</label><br>
           </div>
         </div>
 
@@ -90,53 +94,68 @@
           </head>
           <img src="./Pictures/Mat/Siderett.jpg" alt="Sideretter" width="500px">
           <div class="textbox">
-            <input type="checkbox" name="Siderett" value="Løkringer" id="løkringer"><label for="løkringer"><font size="5">Løkringer</font> </label><br>
-            <input type="checkbox" name="Siderett" value="Pomfrites" id="Pomfrites"><label for="Pomfrites"><font size="5">Pomfrites</font></label><br>
-            <input type="checkbox" name="Siderett" value=mini id="mini"><label for="mini"><font size="5">Mini Burger x3</font></label><br>
-            <input type="checkbox" name="Siderett" value="Cal" id="Cal"><label for="Cal"><font size="5">Caleslaw</font></label><br>
+            <input type="radio" name="Siderett" value="Løkringer" id="løkringer"><label for="løkringer"> Løkringer</label><br>
+            <input type="radio" name="Siderett" value="Pomfrites" id="Pomfrites"><label for="Pomfrites"> Pomfrites</label><br>
+            <input type="radio" name="Siderett" value=mini id="mini"><label for="mini"> Mini Burger x3</label><br>
+            <input type="radio" name="Siderett" value="Cal" id="Cal"><label for="Cal"> Caleslaw</label><br>
           </div>
         </div>
       </div>
 
-      <div class="w3-cell fixed">
-        <div class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
-          <h2 class="w3-center">Order here</h2>
+      <div class="w3-card-4 back_1">
 
-          <div class="w3-row w3-section">
-            <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
-            <div class="w3-rest">
-              <input class="w3-input w3-border" name="first" type="text" placeholder="First Name">
-            </div>
-          </div>
-
-          <div class="w3-row w3-section">
-            <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
-            <div class="w3-rest">
-              <input class="w3-input w3-border" name="email" type="text" placeholder="Email">
-            </div>
-          </div>
-
-          <div class="w3-row w3-section">
-            <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
-            <div class="w3-rest">
-              <input class="w3-input w3-border" name="phone" type="text" placeholder="Phone">
-            </div>
-          </div>
-
-          <div class="w3-row w3-section">
-            <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-pencil"></i></div>
-            <div class="w3-rest">
-              <input class="w3-input w3-border" name="adress" type="text" placeholder="Adress" id="ad">
-            </div>
-          </div>
-
-          <button type="submit" class="w3-button w3-block w3-section w3-blue w3-ripple w3-padding" id="submitOrd">Send</button>
+        <head class="w3-container">
+          <h2>Tilbehør</h2>
+        </head>
+        <img src="./Pictures/Mat/Tilbehør.jpg" alt="Sideretter" width="500px">
+        <div class="textbox">
+          <input type="checkbox" name="Tilbehør" value="majones" id="majones"><label for="majones"> Majones</label><br>
+          <input type="checkbox" name="Tilbehør" value="oliven" id="oliven"><label for="oliven"> Oliven</label><br>
+          <input type="checkbox" name="Tilbehør" value="salat" id="salat"><label for="salat"> Salat</label><br>
+          <input type="checkbox" name="Tilbehør" value="ket" id="ket"><label for="ket"> Ketsjup</label><br>
         </div>
+      </div>
+  </div>
+
+  <div class="w3-cell fixed_box1">
+    <div class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
+      <h2 class="w3-center">Order here</h2>
+
+      <div class="w3-row w3-section">
+        <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+        <div class="w3-rest">
+          <input class="w3-input w3-border" name="first" type="text" placeholder="First Name">
+        </div>
+      </div>
+
+      <div class="w3-row w3-section">
+        <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
+        <div class="w3-rest">
+          <input class="w3-input w3-border" name="email" type="text" placeholder="Email">
+        </div>
+      </div>
+
+      <div class="w3-row w3-section">
+        <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
+        <div class="w3-rest">
+          <input class="w3-input w3-border" name="phone" type="text" placeholder="Phone">
+        </div>
+      </div>
+
+      <div class="w3-row w3-section">
+        <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-pencil"></i></div>
+        <div class="w3-rest">
+          <input class="w3-input w3-border" name="adress" type="text" placeholder="Adress" id="ad">
+        </div>
+      </div>
+
+      <button type="submit" class="w3-button w3-block w3-section w3-blue w3-ripple w3-padding" id="submitOrd" title="send her og dra til handlekurv">Send</button>
+    </div>
     </form>
 
     <script>
       function SubmitOrder(submitOrd) { //making a submit function
-        firebase.database().ref('./JSON/bestilling.JSON' + submitOrd).set({
+        firebase.database().ref('firebase.json' + submitOrd).set({
           //fech this data and put it in .JSON file
           Hovedrett: mat,
           Drikke: drikke,
@@ -145,7 +164,7 @@
         });
       }
     </script>
-    </div>
+  </div>
 
   </div>
 </body>

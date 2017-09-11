@@ -1,3 +1,27 @@
+
+input[type=radio]{
+  width: 1.5em;
+  height: 1.5em;
+}
+
+input[type=checkbox]{
+  width: 1.5em;
+  height: 1.5em;
+}
+
+img{
+  border-radius: 30px;
+  margin: 5px;
+}
+
+h2{
+  margin: 15px;
+}
+
+label{
+  font-size: 25px;
+}
+
 div.button {
   float: right;
   margin-right: 1em;
@@ -17,33 +41,55 @@ div.back_1 {
   border-radius: 20px;
 }
 
-body {
-  background-image: url("../Pictures/Background.jpg");
-  background-size: cover;
-  background-attachment: fixed;
+div.fixed{
+  position: fixed;
 }
 
-div.fixed {
+div.fixed_box1 {
     margin-left: 75em;
     position: fixed;
     top:40px;
 }
 
-input[type=radio]{
-  width: 1.5em;
-  height: 1.5em;
+div.nav-bar {
+  width: 100%;
+  overflow: hidden;
+  display: inline-block;
+  padding: 4px 4px;
+  float: left;
+  border: none;
+  outline: none;
+  display: block;
+  position: static;
+  float: left;
+  white-space: normal;
 }
 
-input[type=checkbox]{
-  width: 1.5em;
-  height: 1.5em;
+div.button_1{
+  width: 100%;
+  border: none;
+  display: inline-block;
+  outline: 0;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: left;
+  white-space: normal;
+
 }
 
-img{
-  border-radius: 30px;
-  margin: 5px;
+.button_1:hover{
+  color: #000!important;
+  background-color: #ccc!important;
 }
 
-h2{
-  margin: 15px;
+.button_1:first-child{
+  background-color: #ccc;
+  color: #000;
 }

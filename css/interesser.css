@@ -1,0 +1,16 @@
+div.right {
+  text-align: right;
+}
+
+div.left {
+  text-align: left;
+}
+
+p, h3, h2 {
+  padding: 10px;
+  color: white;
+}
+
+body{
+  background-color: rgba(20,20,20,0.7) ;
+}
