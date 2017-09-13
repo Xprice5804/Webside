@@ -1,0 +1,84 @@
+[debug] [2017-09-13T08:03:37.076Z] ----------------------------------------------------------------------
+[debug] [2017-09-13T08:03:37.076Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\eirik\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-13T08:03:37.076Z] CLI Version:   3.10.1
+[debug] [2017-09-13T08:03:37.076Z] Platform:      win32
+[debug] [2017-09-13T08:03:37.076Z] Node Version:  v8.4.0
+[debug] [2017-09-13T08:03:37.076Z] Time:          Wed Sep 13 2017 10:03:37 GMT+0200 (Central European Daylight Time)
+[debug] [2017-09-13T08:03:37.080Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-13T08:03:37.094Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-13T08:03:37.094Z] > authorizing via signed-in user
+[debug] [2017-09-13T08:03:37.097Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/restaurant-1606  
+ Wed Sep 13 2017 10:03:37 GMT+0200 (Central European Daylight Time)
+[debug] [2017-09-13T08:03:37.828Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-13T08:03:37.828Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/restaurant-1606/tokens  
+ Wed Sep 13 2017 10:03:37 GMT+0200 (Central European Daylight Time)
+[debug] [2017-09-13T08:03:38.543Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\eirik\Google Drive\Bacup\IT1\Projects\Webside'...
+[info] 
+[debug] [2017-09-13T08:03:38.550Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/restaurant-1606  
+ Wed Sep 13 2017 10:03:38 GMT+0200 (Central European Daylight Time)
+[debug] [2017-09-13T08:03:39.438Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-13T08:03:39.438Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/839578733085/clients/_:getWebAppConfig  
+ Wed Sep 13 2017 10:03:39 GMT+0200 (Central European Daylight Time)
+[debug] [2017-09-13T08:03:40.110Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-09-13T08:15:44.566Z] ----------------------------------------------------------------------
+[debug] [2017-09-13T08:15:44.570Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\eirik\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-13T08:15:44.570Z] CLI Version:   3.10.1
+[debug] [2017-09-13T08:15:44.570Z] Platform:      win32
+[debug] [2017-09-13T08:15:44.570Z] Node Version:  v8.4.0
+[debug] [2017-09-13T08:15:44.570Z] Time:          Wed Sep 13 2017 10:15:44 GMT+0200 (Central European Daylight Time)
+[debug] [2017-09-13T08:15:44.570Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-13T08:15:44.597Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-13T08:15:44.597Z] > authorizing via signed-in user
+[debug] [2017-09-13T08:15:44.599Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/restaurant-1606  
+ Wed Sep 13 2017 10:15:44 GMT+0200 (Central European Daylight Time)
+[debug] [2017-09-13T08:15:45.378Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-13T08:15:45.378Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/restaurant-1606/tokens  
+ Wed Sep 13 2017 10:15:45 GMT+0200 (Central European Daylight Time)
+[debug] [2017-09-13T08:15:45.993Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\eirik\Google Drive\Bacup\IT1\Projects\Webside'...
+[info] 
+[debug] [2017-09-13T08:15:45.997Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/restaurant-1606  
+ Wed Sep 13 2017 10:15:45 GMT+0200 (Central European Daylight Time)
+[debug] [2017-09-13T08:15:46.857Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-13T08:15:46.857Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/839578733085/clients/_:getWebAppConfig  
+ Wed Sep 13 2017 10:15:46 GMT+0200 (Central European Daylight Time)
+[debug] [2017-09-13T08:15:47.366Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-09-13T08:30:01.294Z] ----------------------------------------------------------------------
+[debug] [2017-09-13T08:30:01.294Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\eirik\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-13T08:30:01.294Z] CLI Version:   3.10.1
+[debug] [2017-09-13T08:30:01.294Z] Platform:      win32
+[debug] [2017-09-13T08:30:01.294Z] Node Version:  v8.4.0
+[debug] [2017-09-13T08:30:01.294Z] Time:          Wed Sep 13 2017 10:30:01 GMT+0200 (Central European Daylight Time)
+[debug] [2017-09-13T08:30:01.294Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-13T08:30:01.310Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-13T08:30:01.310Z] > authorizing via signed-in user
+[debug] [2017-09-13T08:30:01.310Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/restaurant-1606  
+ Wed Sep 13 2017 10:30:01 GMT+0200 (Central European Daylight Time)
+[debug] [2017-09-13T08:30:02.070Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-13T08:30:02.070Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/restaurant-1606/tokens  
+ Wed Sep 13 2017 10:30:02 GMT+0200 (Central European Daylight Time)
+[debug] [2017-09-13T08:30:02.739Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\eirik\Google Drive\Bacup\IT1\Projects\Webside'...
+[info] 
+[debug] [2017-09-13T08:30:02.739Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/restaurant-1606  
+ Wed Sep 13 2017 10:30:02 GMT+0200 (Central European Daylight Time)
+[debug] [2017-09-13T08:30:03.639Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-13T08:30:03.639Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/839578733085/clients/_:getWebAppConfig  
+ Wed Sep 13 2017 10:30:03 GMT+0200 (Central European Daylight Time)
+[debug] [2017-09-13T08:30:04.300Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+

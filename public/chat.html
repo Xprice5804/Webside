@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact us</title>
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+</head>
+
+<body>
+  <input id="username" type="text" placeholder="Name"><br/>
+  <input id="text" type="text" placeholder="Message"><br/>
+  <button id="post">Post</button><br/>
+  <div id="results"></div>
+
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCtkgAQH3znosuNernaBz8oDb3YeEUfW1E",
+      authDomain: "restaurant-1606.firebaseapp.com",
+      databaseURL: "https://restaurant-1606.firebaseio.com",
+      projectId: "restaurant-1606",
+      storageBucket: "gs://restaurant-1606.appspot.com/",
+      messagingSenderId: "839578733085"
+    };
+    firebase.initializeApp(config);
+    //get a referenceto the database service
+    var database = firebase.database();
+  </script>
+
+
+  <!--To capture an event when someone adds a message you need to add an event listener to the post button. While we are at it, let's define some shorthand variables to access our DOM elements:-->
+  <script>
+    var myChat = new Firebase('https://restaurant-1606.firebaseio.com');
+    var usernameInput = document.querySelector('#username');
+    var textInput = document.querySelector('#text');
+    var postButton = document.querySelector('#post');
+
+    postButton.addEventListener("click", function() {
+      var msgUser = usernameInput.value;
+      var msgText = textInput.value;
+      myFirebase.set(msgUser + " says: " + msgText);
+      textInput.value = "";
+    });
+  </script>
+
+</body>
+
+</html>
