@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>Contact us</title>
   <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 </head>
 
 <body>
@@ -39,7 +40,7 @@
     postButton.addEventListener("click", function() {
       var msgUser = usernameInput.value;
       var msgText = textInput.value;
-      myFirebase.set(msgUser + " says: " + msgText);
+      myChat.set(msgUser + " says: " + msgText);
       textInput.value = "";
     });
   </script>
