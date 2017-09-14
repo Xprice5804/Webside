@@ -70,6 +70,7 @@ div.nav-bar {
   position: static;
   float: left;
   white-space: normal;
+  text-align: center;
 }
 
 div.footer{
