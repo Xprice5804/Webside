@@ -131,8 +131,12 @@ div.footer{
 }
 
 .button_2:hover{
-  color: #000 !important;
-  background-color: #ccc !important;
+  color: #000;
+  background-color: #ccc;
+}
+
+.button_2:active{
+  background-color: cyan;
 }
 
 .footer_img{
