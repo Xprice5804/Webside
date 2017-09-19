@@ -9,11 +9,6 @@ input[type=checkbox]{
   height: 1.5em;
 }
 
-img{
-  border-radius: 30px;
-  margin: 5px;
-}
-
 h2{
   margin: 15px;
 }
@@ -62,7 +57,7 @@ div.nav-bar {
   width: 100%;
   overflow: hidden;
   display: inline-block;
-  padding: 4px 4px;
+  padding: 8px 8px;
   float: left;
   border: none;
   outline: none;
@@ -71,6 +66,7 @@ div.nav-bar {
   float: left;
   white-space: normal;
   text-align: center;
+  vertical-align: top;
 }
 
 div.footer{

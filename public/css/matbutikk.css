@@ -5,3 +5,8 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+
+img{
+  border-radius: 30px;
+  margin: 5px;
+}
