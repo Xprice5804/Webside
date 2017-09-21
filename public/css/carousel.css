@@ -7,10 +7,8 @@ body {
   color: #5a5a5a;
 }
 
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
-
 /* Carousel base class */
 .carousel {
   margin-bottom: 20px;
@@ -34,6 +32,11 @@ body {
   height: 32rem;
 }
 
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
